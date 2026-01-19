@@ -8,11 +8,15 @@
   font-weight: <weight>;
   font-style: normal;
 }
+body{
+    background-color: #1A0B2E;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
     background-color: #1A0B2E;
     align-items: center;
+    border-bottom: 1px solid blueviolet;
 }
 .navbar div{
     display: flex;
@@ -39,3 +43,99 @@
     border-radius: 35%;
     
 }
+
+.c-img{
+    width: 350px;
+    height:350px;
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+    
+}
+.m-img{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:117px;
+}
+.h-write{
+    text-align: center;
+    position: relative;
+    margin-top: 63vh;
+}
+.h-write h1{
+    color: white;
+    font-size: 60;
+    font-weight: bold;
+}
+.h-write p{
+    color: white;
+    font-size: 16;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:12px;  
+}
+
+.spotify{
+    
+   background:linear-gradient(to left bottom,indigo,purple,yellow);
+   color:white ;
+   font-weight: bolder; 
+   border-radius: 15%;
+   height: 44px;
+}
+.spotify img{
+    height: 20px;
+    width: 20px;
+}
+.sub{
+    background: transparent;
+    border-radius: 15%;
+    height: 44px;
+    border:1px splid #00FF88;
+    color:#00FF88;
+}
+.circle button{
+    background-color:#00FF88 ;
+    color: black;
+    font-size: 18px;
+    border-radius: 15%;
+    height: 38px;
+    
+}
+.container{
+    text-align: center;
+}
+.container h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.container p{
+    color: white;
+    font-size: 16px;
+    margin-left: 220px;
+    margin-right: 220px;
+}
+.views{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 200px 120px 200px;
+}
+.one h1,.two h1,.three h1,.four h1{
+    color:#00FF88;
+    font-size: 48px;
+}
+.one p,.two p,.three p,.four p{
+    color: white;
+}
+
+
