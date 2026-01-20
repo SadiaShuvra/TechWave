@@ -18,7 +18,10 @@ body{
     align-items: center;
     border-bottom: 1px solid blueviolet;
 }
-.navbar div{
+.m-icon{
+    display: none;
+}
+.nav-div{
     display: flex;
     justify-content: space-around;
     color: white;
@@ -270,3 +273,21 @@ body{
 .f-container p{
     color: #fafafa;
 }
+
+@media screen and (max-width: 768px){
+    .navbar{
+        justify-content: space-between;
+        padding: 16px 20px;
+    }
+    .nav-div{
+        display: none;
+    }
+    .navbar button{
+        display: none;
+    }
+    .m-icon{
+        display: block;
+        margin-right: 20px;
+    }
+}
+    
