@@ -185,10 +185,12 @@ body{
     margin:40px 200px 120px 200px;
     color: white;
     gap: 30px;
+    
 }
 .ai img{
     width: 380px;
     height: 214px;
+    border-radius: 15%;
 }
 .watch img{
     height: 20px;
@@ -199,13 +201,15 @@ body{
     border-radius: 15%;
     text-align: left;
     height:475px;
-    width:420px;
+    width:420px;padding:10px 10px;
 
 }
 .ai h4{
     font-size: 24px;
     font-weight: bold;
 }
+
+
 .watch{
     color:#00FF88
 }
@@ -288,6 +292,86 @@ body{
     .m-icon{
         display: block;
         margin-right: 20px;
+    }
+    .h-write{
+        margin-top: 55vh;
+        padding: 24px 20px;
+
+    }
+    .h-write h1{
+        font-size: 36px;
+    }
+    .h-write p{
+        font-size: 14px;
+    }
+    .container h1,.layout h2,.fea,.meet,.f-container h2{
+        font-size: 32px;
+    }
+    .container p{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .views{
+        padding:40px 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: center;
+        justify-content: center;
+        gap:40px;
+
+    }
+    .layout-container{
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "grid1"
+        "grid2"
+        "grid3"
+        "grid4"
+        "grid5";
+        margin:20px 20px 20px 20px;
+    }
+    .ai{
+        flex-direction: column;
+        margin: 20px 20x;
+    }
+    .ai h4{
+        font-size: 20px;
+    }
+    .host-container{
+        flex-direction: column;height: auto;
+        margin: 20px;
+        align-items: center;
+    }
+    .write h4{
+        font-size: 24px;
+    }
+    .write{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding:10px 10px;
+    }
+    .social img{
+        width:20px;
+        height:20px;
+    }
+    .write p{
+        font-size: 16px;
+    }
+    .foot{
+        width:440px;
+        height:248px;
+    }
+    .f-icon{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:16px;
+        width:219px;
+    }
+    .foot p{
+        font-size: 16px;
+    
     }
 }
     
