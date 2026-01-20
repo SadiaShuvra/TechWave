@@ -137,5 +137,136 @@ body{
 .one p,.two p,.three p,.four p{
     color: white;
 }
+.layout h2{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
 
+.layout-container{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: "grid1 grid2 grid2"
+                          "grid1 grid3 grid3"
+                          "grid4 grid4 grid5";
+    margin:40px 200px 120px 200px;
+    
+    color: white;
+}
+.grid1{grid-area: grid1;}
+.grid2{grid-area: grid2;}
+.grid3{grid-area: grid3;}
+.grid4{grid-area: grid4;}
+.grid5{grid-area: grid5;}
+.layout-container  div{
+    background:#351165 ;
+    padding:25px;
+    border-radius: 16px;
+}
+.layout-container h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+.fea{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+.ai{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:40px 200px 120px 200px;
+    color: white;
+    gap: 30px;
+}
+.ai img{
+    width: 380px;
+    height: 214px;
+}
+.watch img{
+    height: 20px;
+    width: 20px;
+}
+.card1,.card2,.card3{
+    background-color: #351165;
+    border-radius: 15%;
+    text-align: left;
+    height:475px;
+    width:420px;
 
+}
+.ai h4{
+    font-size: 24px;
+    font-weight: bold;
+}
+.watch{
+    color:#00FF88
+}
+.meet{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.host-container{
+    display: flex;
+    gap: 24px;
+    margin:40px 200px 120px 200px;
+    background-color: #351165;
+    height:280px;
+    border-radius: 10%;
+}
+.h-img{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.write h4{
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+    text-align: left;
+}
+.write p{
+    color:white;
+    font-size: 16px;
+    text-align: left;
+}
+.social{
+    display: flex;gap:8px;
+}
+.social img{
+    width:40px;
+    height:40px;
+
+}
+.f-container{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    color: white;
+    justify-content: center;
+}
+.f-container h2{
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.f-icon{
+    display: flex;gap:40px
+}
+.i1,.i2,.i3,.i4{
+    display: flex;
+    gap:2.5px ;
+}
+.f-icon img{
+    width:24px;
+    height: 24px;
+}
+.f-container p{
+    color: #fafafa;
+}
